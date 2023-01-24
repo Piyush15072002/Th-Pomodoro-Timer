@@ -76,7 +76,7 @@ def Reset():
 
 
 win = Tk()
-win.title("The Pomodoro Technique")
+win.title("The Pomodoro Timer")
 win.config(padx=50, pady=50, bg="#FFD4D4")
 
 
@@ -95,7 +95,7 @@ canvas = Canvas(width=700,height=550, bg="#FFD4D4", highlightthickness=0)   # hi
 
 # we cannot mention the picture directly, 
 # we need to use class to run through the directories and get our image
-thePIC = PhotoImage(file = "DAY 28\p1.png")
+thePIC = PhotoImage(file = "p1.png")
 
 # Now we can create the image
 canvas.create_image(350, 250, image = thePIC)   # 200 x 200 are (x,y) to put the image
